@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup Page</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div id="sidebar" class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="#">Students</a></li>
+      <li><a href="addstudent.html">Add Student</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <h1>Setup Page</h1>
+    <form id="setup-form" enctype="multipart/form-data">
+      <input type="text" name="brandName" placeholder="Brand Name">
+      <br>Logo: <input type="file" name="logo">
+      <br>Color Theme: <input type="color" name="themeColor">
+      <br>Target Students: <input type="number" name="annualTargetStudents">
+      <br>Target Income: <input type="number" name="annualTargetIncome">
+      <br>Twitter: <input type="text" name="twitter">
+      <br>Instagram: <input type="text" name="instagram">
+      <br>YouTube: <input type="text" name="youtube">
+      <br>WhatsApp Number: <input type="text" name="whatsappNumber">
+      <br>Landline: <input type="text" name="landline">
+      <br>Email: <input type="email" name="email">
+      <br>About Us: <textarea name="aboutUs"></textarea>
+      <br>Slider Images: <input type="file" name="sliders" multiple>
+      <button type="submit">Save Setup</button>
+    </form>
+  </div>
+
+  <script src="../js/sidebar.js"></script>
+  <script src="../js/setup.js"></script>
+</body>
+</html>

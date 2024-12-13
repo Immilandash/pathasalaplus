@@ -20,12 +20,19 @@
     <nav class="navbar">
       <h1>View studetns here ❕ </h1>
     </nav>
-
+    <select id="campus-filter" onchange="filterStudents()">
+      <option value="all">All Campuses</option>
+      <option value="1">Campus 1</option>
+      <option value="2">Campus 2</option>
+      <option value="3">Campus 3</option>
+    </select>
     <div id="student-cards" class="student-cards-container">
         <!-- Student cards will be inserted here dynamically -->
       </div>
+
   </div>
 
   <script src="../js/students.js"></script>
+  <script src="../js/sidebar.js"></script>
 </body>
 </html>
